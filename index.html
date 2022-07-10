@@ -1,0 +1,215 @@
+<?php
+include_once('top.php');
+include_once('g5/common.php');
+include_once(G5_LIB_PATH.'/latest.lib.php');
+?>
+
+            <div class="content_wrap">
+                <section id="visualArea">
+                    <div id="visual-box">
+                        <div class="slider">
+                            <div><img src="image/visual_img01.jpg" alt="상하성모세 성모자상"/></div>
+                            <div><img src="image/visual_img02.jpg" alt="상하성모세 성당전경"/></div>
+                        </div>
+                    </div>
+                    <div class="quick_box">
+                        <ul>
+                            <li>
+                                <a href="http://sangha.casuwon.or.kr/g5/bbs/board.php?bo_table=weekly">
+                                    <div class="qbg01"></div>
+                                    <p>주보</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub0401.html">
+                                    <div class="qbg02"></div>
+                                    <p>미사/성사안내</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub0403.html">
+                                    <div class="qbg03"></div>
+                                    <p>예비자 입교 안내</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://sangha.casuwon.or.kr/g5/bbs/board.php?bo_table=homily">
+                                    <div class="qbg04"></div>
+                                    <p>신부님 강론</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub0106.html">
+                                    <div class="qbg05"></div>
+                                    <p>셔틀버스 운행 안내</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub0107.html">
+                                    <div class="qbg06"></div>
+                                    <p>오시는 길</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="laArea">
+                    <div class="gallery">
+                        <?
+                             echo latest("pic_block", "gallery", 3, 100);
+                        ?>
+
+                    </div>
+                    <div class="notice">
+                        <?
+                            echo latest("Nimple_basic", "notice", 5, 100);
+                        ?>
+                    </div>
+                </section>
+
+            </div> <!--content wrap-->
+            <section id="fambanArea">
+    <div class="ban_wrap">
+        <ul>
+            <li><a href="http://www.casuwon.or.kr/casuwon/" target="_blank"><img src="image/fam_suwon.jpg" alt="수원교구"></a></li>
+            <li><a href="http://v1.casuwon.or.kr/bbs/?pid=main" target="_blank"><img src="image/fam_suwon01.jpg" alt="제1대리구"></a></li>
+            <li><a href="http://www.cbck.or.kr/" target="_blank"><img src="image/banner05.jpg" alt="한국천주교주교회의"></a></li>
+            <li><a href="http://www.catholic.or.kr/" target="_blank"><img src="image/fam_good.jpg" alt="굿뉴스"></a></li>
+            <li><a href="http://web.pbc.co.kr/CMS/index.php" target="_blank"><img src="image/fam_cpbc.jpg" alt="평화방송"></a></li>
+            <li><a href="http://www.catholictimes.org" target="_blank"><img src="image/fam_news.jpg" alt="가톨릭신문"></a></li>
+            <li><a href="https://www.phnuri.co.kr/cmm/main/mainPage.do" target="_blank"><img src="image/fam_peace.jpg" alt="평화상조"></a></li>
+            <li><a href="http://www.pauline.or.kr/" target="_blank"><img src="image/fam_paul.jpg" alt="성바오로딸수도회"></a></li>
+            <li><a href="http://uus.pauline.or.kr/" target="_blank"><img src="image/fam_pauline.jpg" alt="성바오로딸수도회시청각통신성서교육원"></a></li>
+            <li><a href="https://www.mariasarang.net/" target="_blank"><img src="image/fam_love.jpg" alt="마리아사랑넷"></a></li>
+            <li><a href="http://cyberbible.casuwon.or.kr/" target="_blank"><img src="image/fam_school.jpg" alt="사이버성경학교"></a></li>
+            <li><a href="http://www.clak.or.kr/" target="_blank"><img src="image/fam_council.jpg" alt="한국천주교평신도사도직단체협의회"></a></li>
+            <li><a href="http://www.godislove.or.kr" target="_blank"><img src="image/fam_young.jpg" alt="가톨릭청년성서모임"></a></li>
+            <li><a href="http://www.catholicshop.or.kr/" target="_blank"><img src="image/fam_teen.jpg" alt="청소년국장터"></a></li>
+
+        </ul>
+    </div>
+</section>
+        </div><!--wrapper_inner-->
+        <?php
+            include_once('bottom.html');
+        ?>
+        <!--<div id="layer_popup">
+            <h2>팝업레이어 알림</h2>
+            <div id="hd_pops_1" class="hd_pops">
+                <div class="hd_pops_con">
+                    <p><img src="http://sanghacasuwon.or.kr/image/201206_notice_popup.jpg" title="공지사항" alt="공지사항">
+                        <map name="Map">
+                            <area shape="rect" coords="81,690,277,732" href="http://www.casuwon.or.kr/bbs/?Act=bbs&amp;subAct=view&amp;bid=notice&amp;seq=117614">
+                            <area shape="rect" coords="324,692,521,730" href="http://www.casuwon.or.kr/bbs/?Act=bbs&amp;subAct=view&amp;bid=notice&amp;seq=117615">
+                        </map>
+                        <br style="clear:both;"></p></div>
+                <div class="hd_pops_footer">
+                    <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+                    <button class="hd_pops_close hd_pops_1">닫기</button>
+                </div>
+            </div>
+        </div>
+        <div id="layer_popup2">
+            <h2>팝업레이어 알림</h2>
+            <div id="hd_pops_2" class="hd_pops">
+                <div class="hd_pops_con">
+                    <p><img src="http://sanghacasuwon.or.kr/image/201206_notice_popup2.jpg" title="공지사항" alt="공지사항">
+                        <br style="clear:both;"></p></div>
+                <div class="hd_pops_footer">
+                    <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+                    <button class="hd_pops_close hd_pops_1">닫기</button>
+                </div>
+            </div>
+        </div>
+        <div id="layer_popup3">
+            <h2>팝업레이어 알림</h2>
+            <div id="hd_pops_3" class="hd_pops">
+                <div class="hd_pops_con">
+                    <p>
+                        <img src="http://sanghacasuwon.or.kr/image/notice_201224.jpg" usemap="#001" title="공지사항" alt="공지사항" border="0">
+                        <map name="001">
+                            <area shape="rect" coords="58,193,381,252" href="http://sanghacasuwon.or.kr/g5/bbs/board.php?bo_table=notice&wr_id=30">
+                        </map>
+                        <br style="clear:both;">
+                    </p>
+                </div>
+                <div class="hd_pops_footer">
+                    <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+                    <button class="hd_pops_close hd_pops_1">닫기</button>
+                </div>
+            </div>
+        </div>-->
+        <!--<div id="fade" class="black_overlay"></div>
+            <div class="video_popup">
+                <a class="close" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';
+                            document.getElementById('fade').style.display='none'">닫기</a>
+                <div id="light" class="white_content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QB1B-kJcmAA?rel=0" frameborder="0"  allowfullscreen style="width:100%; height: 100%;"></iframe>
+                </div>
+        </div>-->
+<script>
+    $(document).ready(function () {
+        //동영상 팝업 닫기
+        $(".video_popup .close").on("click", function(){
+            $(".video_popup").remove()
+        })
+    });
+</script>
+<script>
+    $("#layer_popup .hd_pops_reject").click(function () {
+        setCookie("showCookies", "N", 1); //1일동안 유지되는 쿠키 생성
+        $('#layer_popup',).hide(); // 레이어 감춤
+    });
+    $("#layer_popup .hd_pops_close").click(function () {
+        $('#layer_popup').hide(); // 레이어 감춤
+    });
+
+    $("#layer_popup2 .hd_pops_reject").click(function () {
+        setCookie("showCookies", "N", 1); //1일동안 유지되는 쿠키 생성
+        $('#layer_popup2',).hide(); // 레이어 감춤
+    });
+    $("#layer_popup2 .hd_pops_close").click(function () {
+        $('#layer_popup2').hide(); // 레이어 감춤
+    });
+
+    $("#layer_popup3 .hd_pops_reject").click(function () {
+        setCookie("showCookies", "N", 1); //1일동안 유지되는 쿠키 생성
+        $('#layer_popup3',).hide(); // 레이어 감춤
+    });
+    $("#layer_popup3 .hd_pops_close").click(function () {
+        $('#layer_popup3').hide(); // 레이어 감춤
+    });
+
+    if (getCookie("showCookies") != "N") {
+        $("#layer_popup").show(); // showCookies 라는 이름의 쿠키 값이 "N" 이 아니면 레이어 보여줌
+        $("#layer_popup2").show();
+        $("#layer_popup3").show();
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires + '; Path=/;';
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        }
+        return "";
+    }
+
+    function delete_cookie(name) {
+        document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+</script>
+
+</div> <!--wrapper-->
+
+</body>
+</html>

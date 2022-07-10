@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d5929c9e-ea26-48b2-b91c-e2a3d1b0e817" name="sangha" url="http://172.20.13.233">
+        <fileTransfer rootFolder="/www" host="172.20.13.233" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e0b3b526-a7f7-4cc7-aa70-aacb51007e94" name="portfolio" url="http://studiolux.or.kr">
+        <fileTransfer rootFolder="/www" host="studiolux.or.kr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="713c1f6b-6358-4eb2-80ee-f05dc543125b" name="hwahyun.co.kr" url="http://hwahyun.co.kr">
+        <fileTransfer host="hwahyun.co.kr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

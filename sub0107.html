@@ -1,0 +1,94 @@
+<?php
+include_once('top.php');
+?>
+
+            <div class="content_wrap">
+                <div class="sub_visual">
+                    <p class="assist_tit">Church of Sangha St.Moses</p>
+                    <p class="sub_tit">본당소개</p>
+                </div>
+                <div class="subCont_wrap">
+                    <div class="subCont_inner">
+                        <div class="lnb">
+                            <h3 class="lnb_tit">본당소개</h3>
+                            <ul>
+                                <li><a href="sub0101.html">본당소개</a></li>
+                                <li><a href="sub0102.html">주보성인</a></li>
+                                <li><a href="sub0103.html">신부님과 수녀님</a></li>
+                                <li><a href="sub0104.html">본당연혁</a></li>
+                                <li><a href="sub0105.html">사무실안내</a></li>
+                                <li><a href="sub0106.html">셔틀버스운행안내</a></li>
+                                <li><a href="sub0107.html" class="on">오시는 길</a></li>
+                            </ul>
+                        </div>
+                        <div class="sub_contents">
+                            <div class="cont_tit">
+                                <h4>오시는 길</h4>
+                                <ul class="page_pager">
+                                    <li><a href="#self"><img src="image/home.gif" alt="home"></a>&gt;&nbsp;</li>
+                                    <li><a href="#self">본당소개 &nbsp;</a>&gt;</li>
+                                    <li><a href="#self" class="on">오시는 길</a></li><!-- on 활성화 -->
+                                </ul>
+                            </div>
+                            <div class="cont_area">
+                                <div>
+                                    <!-- * 카카오맵 - 지도퍼가기 -->
+                                    <!-- 1. 지도 노드 -->
+                                    <div id="daumRoughmapContainer1569135562248" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
+
+                                    <!--
+                                        2. 설치 스크립트
+                                        * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                                    -->
+                                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                                    <!-- 3. 실행 스크립트 -->
+                                    <script charset="UTF-8">
+                                        new daum.roughmap.Lander({
+                                            "timestamp" : "1569135562248",
+                                            "key" : "v4vr",
+                                            "mapHeight" : "460"
+                                        }).render();
+                                    </script>
+                                </div>
+                                <hr class="hr20">
+                                <hr class="hr20">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" border="0" class="tb01">
+                                        <tbody>
+                                        <tr>
+                                            <th width="20%">지하철로 오시는 경우</th>
+                                            <td colspan="3">기흥역 8번 출구. 기흥역 정류장까지 도보로 이동 <br/>
+                                                일반 66, 10, 820, 690 직행 5001, 5600 10분, 7개 정류장 이동 <br/>
+                                                인정프린스, 흥국생명 연수원에서 하차</td>
+                                        </tr>
+                                        <tr>
+                                            <th>버스로 오시는 경우</th>
+                                            <td>
+                                                <b>[인정프린스, 흥국생명 연수원] 효자고개 방향</b><br>
+                                                일반 - 10, 66, 690, 820<br>
+                                                직행 - 5001, 5005, 5600<br>
+                                                마을 - 28
+                                            </td>
+                                            <td>
+                                                <b>[인정프린스, 흥국생명 연수원] 수원동, 쌍용아파트 방면</b><br>
+                                                일반 - 10, 66, 690, 820<br>
+                                                직행 - 5001, 5005, 5600<br>
+                                                마을 - 28
+                                            </td>
+                                        </tr>
+                                        </tbody></table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--sub content wrap-->
+            </div> <!--content wrap-->
+
+        </div><!--wrapper_inner-->
+<?php
+include_once('bottom.html');
+?>
+     </div> <!--wrapper-->
+</body>
+</html>

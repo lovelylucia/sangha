@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sangha" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="hwahyun.co.kr">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www" local="E:/hwahyun" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="portfolio">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../www" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sangha">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/www/g5/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

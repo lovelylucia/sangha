@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>MouseWheel</title>
+    <style type="text/css">
+        #closeTopBanner {
+	display: none;
+	border: 1px solid red;
+	width: 200px;
+	height: 100px;
+	padding: 4px;
+  position: relative;
+}
+
+#closeBtn {
+  cursor:pointer;
+	position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#deleteCookie {
+  cursor: pointer;
+}
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+</head>
+
+<body>
+<div id="closeTopBanner">
+	레이어 팝업
+	<div id="closeBtn">
+		[닫기 - 하루동안 안보임]
+	</div>
+</div>
+
+<Br/>
+
+<script>
+	$("#closeBtn").click(function () {
+		setCookie("showCookies", "N", 1); //1일동안 유지되는 쿠키 생성
+		$('#closeTopBanner').hide(); // 레이어 감춤
+	});
+
+	if (getCookie("showCookies") != "N") {
+		$("#closeTopBanner").show(); // showCookies 라는 이름의 쿠키 값이 "N" 이 아니면 레이어 보여줌
+	}
+
+	function setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+		var expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=" + cvalue + "; " + expires + '; Path=/;';
+	}
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') c = c.substring(1);
+			if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+		}
+		return "";
+	}
+
+	function delete_cookie(name) {
+		document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+	}
+	</script>
+</body>
+</html>
