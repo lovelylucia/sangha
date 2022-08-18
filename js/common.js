@@ -81,8 +81,6 @@ $('.depth1 > li > a').click(function(){
     $(this).next().slideToggle().siblings('.depth2').slideUp(300);
 });
 
-$(document).on("click",".tooltip_icon", function(e){
-  $(this).next(".tooltip").fadeIn(400).css("display","inline-block");
-  
-};
+
+
 

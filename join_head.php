@@ -30,6 +30,11 @@
             useCSS: 'false',
         });
     });
+    $(document).on("click",".tooltip_icon", function(e) {
+      $(this).next(".tooltip").fadeIn(400).css("display", "inline-block");
+    }).on("mouseout","tooltip_icon", function(e){
+      $(this).next(".tooltip").fadeOut();
+    });
 </script>
 
 </head>

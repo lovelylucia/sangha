@@ -25,7 +25,7 @@ if (G5_IS_MOBILE) {
 <hr>
 
 <!-- 하단 시작 { -->
-<div id="ft">
+<!--<div id="ft">
 
     <div id="ft_wr">
         <div id="ft_link" class="ft_cnt">
@@ -54,7 +54,7 @@ if (G5_IS_MOBILE) {
         ?>
 
         <?php echo visit(); // 접속자집계, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
-    </div>
+    </div>-->
     <!-- <div id="ft_catch"><img src="<?php echo G5_IMG_URL; ?>/ft_logo.png" alt="<?php echo G5_VERSION ?>"></div> -->
     <div id="ft_copy">Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.</div>
 

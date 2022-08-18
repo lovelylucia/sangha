@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d5929c9e-ea26-48b2-b91c-e2a3d1b0e817" name="sangha" url="http://172.20.13.233">
+      <webServer id="d5929c9e-ea26-48b2-b91c-e2a3d1b0e817" name="sangha (project level)" url="http://172.20.13.233">
         <fileTransfer rootFolder="/www" host="172.20.13.233" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
