@@ -91,7 +91,7 @@ include_once(G5_LIB_PATH.'/latest.lib.php');
                                     <a href="sub0206.html">사목방침</a>
                                 </li>
                                 <li>
-                                    <a href="sub0201.html">사목평의회</a>
+                                    <a href="sub0201.html">사목평의회 조직</a>
                                 </li>
                                 <li>
                                     <a href="sub0202.html">제분과위원회</a>
@@ -216,20 +216,22 @@ include_once(G5_LIB_PATH.'/latest.lib.php');
                         <li>
                             <a href="sub0206.html" title="상하공동체">상하공동체</a>
                             <div class="submenu">
-                                <ul style='width:600px; margin-left:0;'>
+                                <ul style='width:1000px; margin-left:-270px;'>
                                     <li><a href="sub0206.html" title="사목방침">사목방침</a></li>
-                                    <li><a href="sub0201.html" title="사목평의회">사목평의회</a></li>
+                                    <li><a href="sub0201.html" title="사목평의회">사목평의회 조직</a></li>
                                     <li><a href="sub0202.html" title="제분과협의회">제분과위원회</a></li>
-                                    <li><a href="sub0203.html" title="평단협위원회">평단협위원회</a></li>
-                                    <li><a href="sub0204.html" title="청소년위원회">청소년위원회</a></li>
                                     <li><a href="sub0205.html" title="소공동체">소공동체</a></li>
+                                    <li><a href="sub0204.html" title="청소년위원회">청소년위원회</a></li>
+                                    <li><a href="sub0203.html" title="평단협위원회">평단협위원회</a></li>
+                                    <li><a href="sub0207.html" title="시설관리">시설관리</a></li>
+                                    <li><a href="sub0208.html" title="재정관리">재정관리</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li>
                             <a href="sub0101.html" title="">성당소개</a>
                             <div class="submenu">
-                                <ul style='width:720px; margin-left: -76px;'>
+                                <ul style='width:720px; margin-left: -70px;'>
                                     <li><a href="sub0101.html">본당소개</a></li>
                                     <li><a href="sub0102.html">주보성인</a></li>
                                     <li><a href="sub0103.html">신부님과 수녀님</a></li>

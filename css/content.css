@@ -102,8 +102,12 @@ ul.tabs li.line {width:30px;}
 .policy_wrap .tab_content .letter_con .letterTxt .prayer {margin-bottom: 40px}
 .policy_wrap .tab_content .letter_con .date, .policy_wrap .tab_content .writer {text-align: right}
 
+/*공동체*/
+.group .tit_box {display: flex; flex-direction: column; justify-content: center; margin-bottom: 50px}
+.group .tit_box .main_disc {line-height:inherit; font-size: 20px; font-weight:600}
+.group .tit_box .sub_disc {padding-left:30px; font-size: 16px; color:#FFF; margin-top: 5px;}
 
-/*갤러리*/
+  /*갤러리*/
 #bo_gall .gall_box .gall_text_href a {font-size: 15px;}
 #bo_gall .gall_box .gall_name .sv_member {font-size: 13px; color:#777}
 #bo_gall .gall_box .gall_info i {font-size: 13px!important;}
