@@ -8,7 +8,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$latest_skin_url.'/style.css">', 
 <!-- <?php echo $bo_subject; ?> 최신글 시작 { -->
 <div class="Nb_slt">
 	<div class="Nb_slt_title"><?php echo $bo_subject; ?></div>
-   <div class="Nb_slt_more"><a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=<?php echo $bo_table ?>"><span class="sound_only"><?php echo $bo_subject ?></span>+</a></div>
+   <div class="Nb_slt_more"><a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=<?php echo $bo_table ?>"><span class="sound_only"><?php echo $bo_subject ?></span>more+</a></div>
 	 <table cellspacing=0 cellpadding=0 width='100%'  border=0  class="Nb_slt_content">
     <?php for ($i=0; $i<count($list); $i++) {  ?>
       <tr>
