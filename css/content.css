@@ -66,8 +66,9 @@ ul.tabs li.line {width:30px;}
 
 /*본당연혁*/
 .history_area {padding:25px;}
-.history_area ul li {display: table; width: 100%; min-height: 30px; border-bottom: 1px dashed #ccc;padding: 10px 35px;}
-.history_area ul li span {display:table-cell; width:80px; color:#115666; padding-right:20px; font-size: 20px; vertical-align: top; font-weight: 600; line-height: 1.3; text-align: right;}
+.history_area ul li {display: flex; width: 100%; min-height: 30px; border-bottom: 1px dashed #ccc;padding: 10px 35px;}
+.history_area ul li .year {width:160px;}
+.history_area ul li span {width:80px; color:#115666; padding-right:20px; font-size: 20px; vertical-align: top; font-weight: 600; line-height: 1.3; text-align: right;}
 .history_area dl {overflow: hidden;}
 .history_area dt {width:18%; float:left; color:#115666; font-size: 14px; line-height: 1.7; text-align: right;}
 .history_area dd {float:left; width:57%; padding-left: 30px; display: table; line-height: 1.7; font-size: 14px;}
